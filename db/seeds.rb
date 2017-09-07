@@ -53,3 +53,13 @@ Product.create!(title: 'Ruby Performance Optimization',
       </p>},
   image_url: 'adrpo.jpg',
   price: 46.00)
+  
+Product.create!(title: 'Ruby',
+  description: 
+    %{<p>
+      <em>Test Ruby</em>
+      This is just a test. We're just seeing what all is going
+      on here.
+      </p>},
+  image_url: 'rails.png',
+  price: 289.00)
