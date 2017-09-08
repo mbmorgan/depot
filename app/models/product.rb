@@ -6,6 +6,7 @@ class Product < ApplicationRecord
     with: %r{\.(gif|jpg|png)}i,
     message: "File must be a GIF, JPG, or PNG image."
   }
+  validates :title, length: { minimum: 4 }
   validate :file_exists
   
   private
